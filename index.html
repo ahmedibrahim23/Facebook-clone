@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>social book</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome-link -->
+    <script src="https://kit.fontawesome.com/5cb4f16ca3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="left-side">
+            <img class="logo" src="images/logo.png" alt="">
+           <ul>
+              <li><img src="images/notification.png" alt=""></li>
+              <li><img src="images/video.png" alt=""></li>
+              <li><img src="images/inbox.png" alt=""></li>
+           </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" name="" id="">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsmenutogle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <div class="setting-menu">
+            <div id="dark-btn">
+                <span> </span>
+            </div>
+
+           <div class="setting-menu-inner">
+            <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+               <div>
+                   <p>Ahmed ibra</p>
+                   <a href="profile.html">see your profile</a>
+               </div>
+           </div>
+           <hr>
+           <div class="user-profile">
+            <img src="images/feedback.png" alt="">
+           <div>
+               <p>Ahmed ibra</p>
+               <a href="#">Give as feedback to improve</a>
+           </div>
+       </div>
+       <hr>
+       <div class="settings-link">
+        <img src="images/setting.png" alt="" class="settings-icon">
+        <a href="#">settings & privacy <img src="images/arrow.png" alt="" width="10px"></a>
+       </div>
+       <div class="settings-link">
+        <img src="images/help.png" alt="" class="settings-icon">
+        <a href="#">Help & support <img src="images/arrow.png" alt="" width="10px"></a>
+       </div>
+       <div class="settings-link">
+        <img src="images/display.png" alt="" class="settings-icon">
+        <a href="#">Display & Accesibility<img src="images/arrow.png" alt="" width="10px"></a>
+       </div>
+       <div class="settings-link">
+        <img src="images/logout.png" alt="" class="settings-icon">
+        <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+       </div>
+           </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left-side- bar -->
+        <div class="left-side-bar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Last news</a>
+                <a href="#"><img src="images/friends.png" alt="">friends</a>
+                <a href="#"><img src="images/group.png" alt="">groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="">marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">watch</a>
+                <a href="#">see more</a>
+            </div>
+            <div class="shortcut-link">
+                <p>you shortcut</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">full stack developer</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">website experts</a>
+            </div>
+
+        </div>
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>post story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>post story</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>post story</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>post story</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>post story</p>
+                </div>
+                <div class="story story6">
+                    <img src="images/member-5.png" alt="">
+                    <p>post story</p>
+                </div>
+               
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                     <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Ahmed ibra</p>
+                        <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="input-post-container">
+                    <textarea  rows="3" placeholder="What is in your mind"></textarea>
+                    <div class="add-post-link">
+                        <a href="#"><img src="images/live-video.png" alt="">live-video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo/video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling Activities</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                       <div>
+                           <p>Ahmed ibra</p>
+                           <span>April 24 2023, 9:50</span>
+                       </div>
+                       <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                   </div>
+
+                </div>
+               
+               <p class="post-text">hello there welcome our <span>#Socialmedia</span> app you will provide more featers around the world
+                , we will hope to enjoy alot of pieace<a href="#">Ahmed.com</a>
+               </p>
+               <img class="post-img" src="images/feed-image-1.png" alt="">
+               <div class="post-row">
+                <div class="Activity-icon">
+                    <div><img src="images/like-blue.png" alt="">116</div>
+                    <div><img src="images/comments.png" alt="">1123</div>
+                    <div><img src="images/share.png" alt="">87</div>
+                </div>
+                <div class="post-profile">
+                    <img src="images/profile-pic.png" alt=""><i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                </div>
+               </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                       <div>
+                           <p>Ahmed ibra</p>
+                           <span>April 24 2023, 9:50</span>
+                       </div>
+                       <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                   </div>
+
+                </div>
+               
+               <p class="post-text">hello there welcome our <span>#Socialmedia</span> app you will provide more featers around the world
+                , we will hope to enjoy alot of pieace<a href="#">Ahmed.com</a>
+               </p>
+               <img class="post-img" src="images/feed-image-3.png" alt="">
+               <div class="post-row">
+                <div class="Activity-icon">
+                    <div><img src="images/like-blue.png" alt="">116</div>
+                    <div><img src="images/comments.png" alt="">1123</div>
+                    <div><img src="images/share.png" alt="">87</div>
+                </div>
+                <div class="post-profile">
+                    <img src="images/profile-pic.png" alt=""><i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                </div>
+               </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                       <div>
+                           <p>Ahmed ibra</p>
+                           <span>April 24 2023, 9:50</span>
+                       </div>
+                       <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                   </div>
+
+                </div>
+               
+               <p class="post-text">hello there welcome our <span>#Socialmedia</span> app you will provide more featers around the world
+                , we will hope to enjoy alot of pieace<a href="#">Ahmed.com</a>
+               </p>
+               <img class="post-img" src="images/feed-image-5.png" alt="">
+               <div class="post-row">
+                <div class="Activity-icon">
+                    <div><img src="images/like-blue.png" alt="">116</div>
+                    <div><img src="images/comments.png" alt="">1123</div>
+                    <div><img src="images/share.png" alt="">87</div>
+                </div>
+                <div class="post-profile">
+                    <img src="images/profile-pic.png" alt=""><i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                </div>
+               </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                       <div>
+                           <p>Ahmed ibra</p>
+                           <span>April 24 2023, 9:50</span>
+                       </div>
+                       <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                   </div>
+
+                </div>
+               
+               <p class="post-text">hello there welcome our <span>#Socialmedia</span> app you will provide more featers around the world
+                , we will hope to enjoy alot of pieace<a href="#">Ahmed.com</a>
+               </p>
+               <img class="post-img" src="images/feed-image-5.png" alt="">
+               <div class="post-row">
+                <div class="Activity-icon">
+                    <div><img src="images/like-blue.png" alt="">116</div>
+                    <div><img src="images/comments.png" alt="">1123</div>
+                    <div><img src="images/share.png" alt="">87</div>
+                </div>
+                <div class="post-profile">
+                    <img src="images/profile-pic.png" alt=""><i class="fa-sharp fa-solid fa-caret-down"></i>
+
+                </div>
+               </div>
+            </div>
+            <button class="learn-btn">learn more</button>
+
+        </div>
+        <!-- right-side-bar -->
+        <div class="right-side-bar">
+            <div class="side-bare-title">
+                <h4>Event</h4>
+                <a href="#">see all</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>march</span>
+                </div>
+                <div class="right-event">
+                    <h4>Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>ahmed ibra</p>
+                    <a href="#">more info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>march</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>ahmed ibra</p>
+                    <a href="#">more info</a>
+                </div>
+            </div>
+            <div class="side-bare-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img class="side-bar-ads" src="images/advertisement.png" alt="">
+
+            <div class="side-bare-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Hani</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>BBC</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Hamdi</p>
+            </div>
+        </div>
+    </div>
+        <div class="footer">
+            CopyRights Ahmed ibra.com
+        </div>
+
+<script src="script.js"></script>
+</body>
+</html>
